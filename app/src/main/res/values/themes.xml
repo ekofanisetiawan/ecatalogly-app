@@ -1,0 +1,12 @@
+<resources>
+
+    <style name="Base.Theme.AkashaCrudApp" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">#FFFFFF</item>
+        <item name="colorPrimaryContainer">#FFFFFF</item>
+        <item name="android:statusBarColor">#FFFFFF</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="Theme.AkashaCrudApp" parent="Base.Theme.AkashaCrudApp" />
+
+</resources>

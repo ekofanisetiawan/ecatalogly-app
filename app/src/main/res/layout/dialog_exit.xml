@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@drawable/bg_dialog_rounded">
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exit Application"
+        android:textSize="20sp"
+        android:textColor="#111111"
+        android:fontFamily="@font/montserrat_bold" />
+
+    <TextView
+        android:id="@+id/txtMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Are you sure you want to exit the application?"
+        android:textSize="14sp"
+        android:textColor="#777777"
+        android:fontFamily="@font/montserrat_regular" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:gravity="end"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/btnCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:paddingStart="18dp"
+            android:paddingEnd="18dp"
+            android:gravity="center"
+            android:background="@drawable/bg_button_secondary"
+            android:text="Cancel"
+            android:textColor="#333333"
+            android:textSize="13sp"
+            android:fontFamily="@font/montserrat_semibold" />
+
+        <TextView
+            android:id="@+id/btnExit"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginStart="12dp"
+            android:paddingStart="18dp"
+            android:paddingEnd="18dp"
+            android:gravity="center"
+            android:background="@drawable/bg_button_primary"
+            android:text="Exit"
+            android:textColor="#FFFFFF"
+            android:textSize="13sp"
+            android:fontFamily="@font/montserrat_semibold" />
+
+    </LinearLayout>
+
+</LinearLayout>

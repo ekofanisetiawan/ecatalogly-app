@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@drawable/bg_dialog_rounded">
+
+    <ImageView
+        android:id="@+id/imgDetailProduct"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:background="#F7F7F7"
+        android:scaleType="fitCenter" />
+
+    <TextView
+        android:id="@+id/txtDetailTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Product Name"
+        android:textColor="#111111"
+        android:textSize="22sp"
+        android:fontFamily="@font/montserrat_extrabold" />
+
+    <TextView
+        android:id="@+id/txtDetailPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="$ 50.00"
+        android:textColor="#656565"
+        android:textSize="18sp"
+        android:fontFamily="@font/montserrat_bold" />
+
+    <Button
+        android:id="@+id/btnCloseDetail"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#111111"
+        android:text="Close"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/montserrat_semibold" />
+
+</LinearLayout>
